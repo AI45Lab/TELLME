@@ -1,0 +1,21 @@
+{
+    "num_gpus": 4,
+    "num_nodes": 1,
+    "train_batch_size": "auto",
+    "gradient_accumulation_steps": "auto",
+    "train_micro_batch_size_per_gpu": "auto",
+    "bf16": {
+        "enabled": "auto"
+    },
+    "optimizer": {
+      "type": "AdamW",
+      "params": {
+        "lr": 1e-4,
+        "weight_decay": "auto",
+        "betas": [0.9, 0.999]
+      }
+      },
+    "zero_optimization": {
+      "stage": 1
+    }
+  }
