@@ -218,21 +218,13 @@ def train():
     run_name = str(training_args.output_dir).split("/")[-1]
 
     if dist.get_rank() == 0:
-        # os.environ["WANDB_API_KEY"] = "key"
-        # os.environ["WANDB_MODE"] = "mode"
-        # tracker = wandb.init(
-        #     project="project",
-        #     entity="entity",
-        #     name=run_name,
-        #     )
-        os.environ["WANDB_API_KEY"] = "04be7c36e53539906bdfcaae3f1a3d8960add0cb"
-        os.environ["WANDB_MODE"] = "online"
+        os.environ["WANDB_API_KEY"] = "key"
+        os.environ["WANDB_MODE"] = "mode"
         tracker = wandb.init(
-            project="open_test",
-            entity="quantumcgx-sjtu",
+            project="project",
+            entity="entity",
             name=run_name,
             )
-        # tracker = None
     else:
         tracker = None
 
