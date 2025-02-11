@@ -59,7 +59,7 @@ SEER utilizes constraints of $l_2$ distance on representations and KL distance o
 </div>
 
 ## Acknowledgement 
-Part of the codes are borrowed from [Circuit-Breakers](https://github.com/GraySwanAI/circuit-breakers/tree/main).
+Part of the codes is borrowed from [Circuit-Breakers](https://github.com/GraySwanAI/circuit-breakers/tree/main).
 
 ## Citation 
 If you find our paper&tool interesting and useful, please feel free to give us a star and cite us through: 
