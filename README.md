@@ -1,6 +1,6 @@
 <div align="center">
     <h2>
-      Self-Explainability Enhancement of LLMs’ Representations<br><br>
+      Beyond External Monitors: Enhancing Transparency of Large Language Models for Easier Monitoring<br><br>
      <a href="https://arxiv.org/abs/2502.05242"> <img alt="paper link" src="https://img.shields.io/badge/Paper-arXiv-red"> </a>
     </h2>
 </div>
