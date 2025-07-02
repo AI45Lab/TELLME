@@ -64,9 +64,9 @@ Part of the codes is borrowed from [Circuit-Breakers](https://github.com/GraySwa
 ## Citation 
 If you find our paper&tool interesting and useful, please feel free to give us a star and cite us through: 
 ```bibtex
-@misc{@misc{chen2025seerselfexplainabilityenhancementlarge,
-      title={SEER: Self-Explainability Enhancement of Large Language Models' Representations}, 
-      author={Guanxu Chen and Dongrui Liu and Tao Luo and Jing Shao},
+@misc{@misc{chen2025tellme,
+      title={Beyond External Monitors: Enhancing Transparency of Large Language Models for Easier Monitoring}, 
+      author={Guanxu Chen and Dongrui Liu and Tao Luo and Lijie Hu and Jing Shao},
       year={2025},
       eprint={2502.05242},
       archivePrefix={arXiv},
